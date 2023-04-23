@@ -64,7 +64,7 @@ main .main-input {
     margin-bottom: 35px;
 }
 main .main-input-container {
-    width: 525px;
+    width: 550px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
@@ -72,7 +72,7 @@ main .main-input-container {
     align-items: center;
 }
 main .main-input input {
-    width: 450px;
+    width: 460px;
     height: 40px;
     border: none;
     outline: none;
@@ -123,3 +123,35 @@ main .main-buttons button:hover {
     color: #222;
 }
 
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
